@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Precio Material x Recorrido"/>
+        <attribute name="authors" value="USUARIO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-17 09:14:45 p.&#8239;m."/>
+        <attribute name="created" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNC0xNzswODo0MTozNiBwLuKAr20uOzEwNjg3"/>
+        <attribute name="edited" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNC0xNzswOToxNDo0NSBwLuKAr20uOzE7MTA3OTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="CantidadM3, DistanciaKm, PrecioM3, CostoTotal, ValorKm, ValorMaterial, ValorRecorrido" type="Integer" array="False" size=""/>
+            <output expression="&quot;Cuantos M3 necesita&quot;" newline="True"/>
+            <input variable="CantidadM3"/>
+            <input variable="PrecioM3"/>
+            <input variable="DistanciaKm"/>
+            <input variable="ValorKm"/>
+            <assign variable="ValorMaterial" expression="CantidadM3*PrecioM3"/>
+            <assign variable="ValorRecorrido" expression="ValorKm*DistanciaKm"/>
+            <assign variable="CostoTotal" expression="ValorMaterial+ValorRecorrido"/>
+            <output expression="&quot;El valor total es&quot; &amp;CostoTotal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
