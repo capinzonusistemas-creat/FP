@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Venta de Agua Carrotanque"/>
+        <attribute name="authors" value="USUARIO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-24 06:33:18 p.&#8239;m."/>
+        <attribute name="created" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNC0yNDswNjoyNjo1NSBwLuKAr20uOzEwNjg3"/>
+        <attribute name="edited" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNC0yNDswNjozMzoxOCBwLuKAr20uOzE7MTA3OTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Lado, Base, Altura, Volumen, ValorM3, CostoTotal" type="Real" array="False" size=""/>
+            <output expression="&quot;Valor del lado&quot;" newline="True"/>
+            <input variable="Lado"/>
+            <output expression="&quot;Valor de Base&quot;" newline="True"/>
+            <input variable="Base"/>
+            <output expression="&quot;Valor de la Altura&quot;" newline="True"/>
+            <input variable="Altura"/>
+            <assign variable="Volumen" expression="Lado*Base*Altura"/>
+            <assign variable="ValorM3" expression="100000"/>
+            <assign variable="CostoTotal" expression="ValorM3*Volumen"/>
+            <output expression="&quot;El costo total para llenar el tanque es&quot; &amp; CostoTotal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
