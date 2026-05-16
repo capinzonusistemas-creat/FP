@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="area triangulo"/>
+        <attribute name="authors" value="USUARIO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-17 07:21:03 p.&#8239;m."/>
+        <attribute name="created" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNC0xMDswOToyNzozMyBwLuKAr20uOzEwNjgy"/>
+        <attribute name="edited" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNC0xNzswNzoyMTowMyBwLuKAr20uOzI7MTA3ODc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="TipoHabitacion" type="String" array="False" size=""/>
+            <declare name="CantidadDias" type="Integer" array="False" size=""/>
+            <declare name="CostoBase" type="Real" array="False" size=""/>
+            <declare name="Descuento" type="Real" array="False" size=""/>
+            <declare name="SeguroMedico" type="Integer" array="False" size=""/>
+            <declare name="CostoTotal" type="Real" array="False" size=""/>
+            <output expression="&quot;Bienvenidos al Hotel INTEP DEL META&quot;" newline="True"/>
+            <output expression="&quot;&#191;Cuantas habitaciones necesita?, Le ofrezco Suite, Aire o Ventilador&quot;" newline="True"/>
+            <input variable="TipoHabitacion"/>
+            <assign variable="TipoHabitacion" expression="Aire = 80000"/>
+            <assign variable="TipoHabitacion" expression="Ventilador = 60000"/>
+            <assign variable="TipoHabitacion" expression="Suite = 120000"/>
+            <output expression="&quot;Cuantas noches desea quedarse&quot;" newline="True"/>
+            <input variable="CantidadDias"/>
+            <assign variable="CostoBase" expression="CantidadDias * TipoHabitacion"/>
+            <assign variable="Descuento" expression="CostoBase - 0.10"/>
+            <if expression="">
+                <then/>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
