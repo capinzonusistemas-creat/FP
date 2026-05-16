@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Encontrar Edad"/>
+        <attribute name="authors" value="USUARIO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-17 07:59:04 p.&#8239;m."/>
+        <attribute name="created" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNC0xNzswNzoyMTozMyBwLuKAr20uOzEwNjgx"/>
+        <attribute name="edited" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNC0xNzswNzo1OTowNCBwLuKAr20uOzI7MTA3OTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A&#241;oActual, Edad, FechaNacimiento" type="Integer" array="False" size=""/>
+            <output expression="&quot;Cual es el a&#241;o actual&quot;" newline="True"/>
+            <input variable="A&#241;oActual"/>
+            <output expression="&quot;Cual es su fecha de Nacimiento&quot;" newline="True"/>
+            <input variable="FechaNacimiento"/>
+            <assign variable="Edad" expression="A&#241;oActual-FechaNacimiento"/>
+            <output expression="&quot;Su edad es&quot; &amp;  Edad" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
