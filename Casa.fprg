@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Casa"/>
+        <attribute name="authors" value="USUARIO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-15 07:07:12 p.&#8239;m."/>
+        <attribute name="created" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNS0xNTswNTo1NDowMyBwLuKAr20uOzEwNjgx"/>
+        <attribute name="edited" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNS0xNTswNzowNzoxMiBwLuKAr20uOzE7MTA3ODk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, Cantidad" type="Integer" array="False" size=""/>
+            <input variable="Cantidad"/>
+            <for variable="i" start="1" end=" Cantidad" direction="inc" step="1">
+                <call expression="HacerCasa()"/>
+            </for>
+        </body>
+    </function>
+    <function name="HacerCasa" type="None" variable="">
+        <parameters/>
+        <body>
+            <forward expression="100" pen="down"/>
+            <turn expression="90" rotate="right"/>
+            <forward expression="150" pen="down"/>
+            <turn expression="90" rotate="right"/>
+            <forward expression="100" pen="down"/>
+            <turn expression="90" rotate="right"/>
+            <forward expression="150" pen="down"/>
+            <forward expression="100" pen="down"/>
+            <turn expression="90" rotate="right"/>
+            <forward expression="100" pen="down"/>
+            <turn expression="90" rotate="right"/>
+            <forward expression="100" pen="down"/>
+            <turn expression="135" rotate="left"/>
+            <forward expression="70" pen="down"/>
+            <turn expression="90" rotate="left"/>
+            <forward expression="70" pen="down"/>
+            <turn expression="180" rotate="right"/>
+            <forward expression="70" pen="up"/>
+            <turn expression="45" rotate="right"/>
+            <forward expression="150" pen="down"/>
+            <turn expression="45" rotate="right"/>
+            <forward expression="70" pen="down"/>
+            <turn expression="45" rotate="right"/>
+            <forward expression="20" pen="up"/>
+            <turn expression="90" rotate="right"/>
+            <forward expression="20" pen="up"/>
+            <forward expression="100" pen="down"/>
+            <turn expression="90" rotate="left"/>
+            <forward expression="35" pen="down"/>
+            <turn expression="90" rotate="left"/>
+            <forward expression="100" pen="down"/>
+            <turn expression="90" rotate="left"/>
+            <forward expression="35" pen="down"/>
+            <turn expression="90" rotate="left"/>
+            <forward expression="135" pen="up"/>
+            <forward expression="35" pen="down"/>
+            <turn expression="90" rotate="left"/>
+            <forward expression="35" pen="down"/>
+            <turn expression="90" rotate="left"/>
+            <forward expression="35" pen="down"/>
+            <turn expression="90" rotate="left"/>
+            <forward expression="35" pen="down"/>
+            <turn expression="90" rotate="left"/>
+            <forward expression="35" pen="up"/>
+            <turn expression="90" rotate="left"/>
+            <forward expression="25" pen="up"/>
+            <turn expression="90" rotate="right"/>
+            <forward expression="20" pen="up"/>
+            <forward expression="35" pen="down"/>
+            <turn expression="90" rotate="left"/>
+            <forward expression="55" pen="down"/>
+            <turn expression="90" rotate="left"/>
+            <forward expression="35" pen="up"/>
+            <turn expression="90" rotate="left"/>
+            <forward expression="55" pen="down"/>
+            <turn expression="180" rotate="right"/>
+            <forward expression="55" pen="up"/>
+            <turn expression="90" rotate="right"/>
+            <forward expression="350" pen="up"/>
+            <turn expression="90" rotate="right"/>
+        </body>
+    </function>
+</flowgorithm>
