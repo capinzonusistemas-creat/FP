@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="area del circulo"/>
+        <attribute name="authors" value="USUARIO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-10 09:27:17 p.&#8239;m."/>
+        <attribute name="created" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNC0xMDswOToxNDo1MyBwLuKAr20uOzEwNjgw"/>
+        <attribute name="edited" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNC0xMDswOToyNzoxNyBwLuKAr20uOzE7MTA3OTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area, radio, P&#237;" type="Real" array="False" size=""/>
+            <input variable="radio"/>
+            <assign variable="P&#237;" expression="3.1415"/>
+            <assign variable="area" expression="P&#237; * radio * radio"/>
+            <output expression="&quot; el area del circulo es: &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

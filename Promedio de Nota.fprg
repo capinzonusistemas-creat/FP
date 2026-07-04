@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Promedio de Nota"/>
+        <attribute name="authors" value="USUARIO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-17 08:14:41 p.&#8239;m."/>
+        <attribute name="created" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNC0xNzswODowMDoxNiBwLuKAr20uOzEwNjgw"/>
+        <attribute name="edited" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNC0xNzswODoxNDo0MSBwLuKAr20uOzE7MTA3OTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="PrimerNota, SegundaNota, TercerNota, TotalPromedio" type="Real" array="False" size=""/>
+            <output expression="&quot;Cual es su Primer Nota&quot;" newline="True"/>
+            <input variable="PrimerNota"/>
+            <output expression="&quot;Cual es su segunda Nota&quot;" newline="True"/>
+            <input variable="SegundaNota"/>
+            <output expression="&quot;Cual es su Tercer Nota&quot;" newline="True"/>
+            <input variable="TercerNota"/>
+            <assign variable="TotalPromedio" expression="(PrimerNota+SegundaNota+TercerNota)/3"/>
+            <output expression="&quot;Su nota promedio es&quot; &amp; TotalPromedio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

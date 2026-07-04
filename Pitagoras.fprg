@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Pitagoras"/>
+        <attribute name="authors" value="USUARIO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-24 06:26:52 p.&#8239;m."/>
+        <attribute name="created" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNC0yNDswNjoxNDowMSBwLuKAr20uOzEwNjc1"/>
+        <attribute name="edited" value="VVNVQVJJTztDQVJMT1M7MjAyNi0wNC0yNDswNjoyNjo1MiBwLuKAr20uOzE7MTA3OTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="CatetoA, CatetoB, Hipotenusa" type="Real" array="False" size=""/>
+            <output expression="&quot;Cu&#225;l es el valor del CatetoA&quot;" newline="True"/>
+            <input variable="CatetoA"/>
+            <output expression="&quot;Cu&#225;l es el valor del CatetoB&quot;" newline="True"/>
+            <input variable="CatetoB"/>
+            <assign variable="Hipotenusa" expression="sqrt(CatetoA^2+CatetoB^2)"/>
+            <output expression="&quot;La Hipotenusa es&quot; &amp; Hipotenusa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
